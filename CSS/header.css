@@ -14,7 +14,7 @@
 }
 
 .top-header .header__top {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   font-size: 12px;
 }
 
@@ -35,5 +35,5 @@
 }
 
 .top-header .header__number {
-  color: yellow;
+  color: #ffe94a;
 }
