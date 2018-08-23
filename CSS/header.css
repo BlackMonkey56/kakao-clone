@@ -37,3 +37,7 @@
 .top-header .header__number {
   color: #ffe94a;
 }
+
+.top-header .header__bottom .header__colummn:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
