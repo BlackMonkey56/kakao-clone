@@ -1,6 +1,6 @@
 .body-chat {
-  background-color: #a1c0d6;
-  padding-bottom: : 0;
+  background-color: #eeeeee;
+  padding-bottom: 0;
 }
 
 .chat-header,
@@ -92,29 +92,29 @@
   padding-right: 5px;
 }
 
-.type-message .fa-plus{
+.type-message .fa-plus {
   color: #b4b4b4;
 }
 
-.type-message .type-message__input{
+.type-message .type-message__input {
   width: 80%;
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.type-message__input input{
+.type-message__input input {
   width: 100%;
   padding: 10px;
 }
 
-.type-message__input .fa-smile{
+.type-message__input .fa-smile {
   position: absolute;
   right: 45px;
   color: #b4b4b4;
 }
 
-.type-message__input .fa-microphone{
+.type-message__input .fa-microphone {
   background-color: #ffe94a;
   padding: 10px;
   color: #523737;
