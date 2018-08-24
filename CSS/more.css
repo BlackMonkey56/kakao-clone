@@ -34,6 +34,12 @@
 
 .more__header i {
   color: #523737;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.more__header i:hover {
+  transform: scale(1.1);
 }
 
 .more .more__options,
@@ -54,6 +60,12 @@
   padding: 15px;
   padding-top: 20px;
   color: #523737;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.more__options .more__option:hover {
+  transform: scale(1.1);
 }
 
 .more__option .more__option-title {
@@ -85,6 +97,12 @@
 .plus-friends__items .plus-friends__item {
   width: 50%;
   margin-bottom: 30px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.plus-friends__items .plus-friends__item:hover {
+  transform: scale(1.1);
 }
 
 .plus-friends__item i {
@@ -108,6 +126,12 @@
   flex-direction: column;
   align-items: center;
   margin-right: 20px;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.more__links .more__option:hover {
+  transform: scale(1.1);
 }
 
 .more__links .more__option img {

@@ -60,12 +60,13 @@
   color: #523737;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  transition: color 0.3s, background 0.3s, transform 0.5s ease-in-out;
 }
 
 .chat-btn:hover {
   color: white;
   background: #523737;
+  transform: rotateY(1turn);
 }
 
 .chats__chat:hover {

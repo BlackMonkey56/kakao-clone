@@ -12,8 +12,14 @@
   align-items: center;
   justify-content: center;
   padding-left: 30px;
-  padding-right: 5px;
+  padding-right: 10px;
   color: #523737;
+  cursor: pointer;
+  transition: transform 0.2s linear;
+}
+
+.find__options .find__option:hover {
+  transform: scale(1.1);
 }
 
 .find__option i {
